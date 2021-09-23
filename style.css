@@ -163,6 +163,7 @@ input::-webkit-input-placeholder {
 }
 
 @media screen and (max-width: 767px) {
+
   .mobile {
     display: block;
   }
@@ -201,7 +202,7 @@ input::-webkit-input-placeholder {
   }
 
   .mobile__search {
-    width: 100%;
+    width: 100vw;
     height: 40px;
     border: 1px #ebebf1 solid;
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.05);
