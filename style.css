@@ -5,7 +5,7 @@
   font-family: Roboto, sans-serif;
 }
 
-.header-mobile {
+.mobile {
     display: none;
 }
 
@@ -164,7 +164,7 @@ input::-webkit-input-placeholder {
 
 @media screen and (max-width: 767px) {
 
-    .header-mobile {
+    .mobile {
         display: block;
     }
 
@@ -185,7 +185,7 @@ input::-webkit-input-placeholder {
     }
 
 
-    .first {
+    .mobile__title {
         max-width: 375px;
         height: 64px;
         display: flex;
@@ -206,7 +206,7 @@ input::-webkit-input-placeholder {
         margin: 0;
     }
 
-    .search {
+    .mobile__search {
         width: 375px;
         height: 40px;
         border: 1px #ebebf1 solid;
