@@ -44,7 +44,7 @@ input[type="search"]::-webkit-search-results-decoration {
   display: none;
 }
 input::-webkit-input-placeholder {
-  color: #ccd3e0;
+  color: #EBEBF1;
 }
 
 .header__submit {
